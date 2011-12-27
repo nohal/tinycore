@@ -1,0 +1,4 @@
+mkdir /tmp/opencpn/build
+cd /tmp/opencpn/build
+cmake -DPREFIX=/tmp/opencpn/build/inst -DCFLAGS="-Os -march=i486 -mtune=i686" ..
+cmake --build . --target install

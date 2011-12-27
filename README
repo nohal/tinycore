@@ -1,0 +1,14 @@
+Building wxWidgets & OpenCPN for Tiny Core Linux
+------------------------------------------------
+Get tcztools from http://code.google.com/p/tcztools
+Get the contents of this repository
+cd wx
+./wx-get && ./wx-build
+tcz-pack wx wx-dev
+tce-load -i wx
+tce-load -i wx-dev
+cd ../opencpn
+./opencpn-dev && ../opencpn-build
+tcz-pack opencpn
+tce-load -i opencpn
+

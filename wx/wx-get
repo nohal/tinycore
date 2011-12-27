@@ -1,0 +1,3 @@
+wget http://ignum.dl.sourceforge.net/project/wxwindows/2.8.12/wxGTK-2.8.12.tar.gz
+tar zxf wxGTK-2.8.12.tar.gz -C /tmp
+mv /tmp/wxGTK-2.8.12 /tmp/wx

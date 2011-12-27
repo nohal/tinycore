@@ -1,0 +1,1 @@
+/tmp/wx/include/wx/splash.h

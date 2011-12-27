@@ -1,0 +1,8 @@
+export CXXFLAGS="-march=i486 -mtune=i686 -Os -pipe -fexceptions -frtti"
+export PKG_CONFIG_PATH=/usr/lib/pkgconfig:/usr/local/lib/pkgconfig
+
+cd /tmp/wx
+mkdir build_gtk2_shared_monolithic_unicode
+cd build_gtk2_shared_monolithic_unicode
+../configure --prefix=/usr/local --enable-xrc --enable-monolithic --enable-unicode --enable-graphics_ctx --with-opengl
+make DESTDIR=tinycore install

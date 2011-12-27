@@ -1,0 +1,1 @@
+/tmp/wx/include/wx/slider.h

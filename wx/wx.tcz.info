@@ -1,0 +1,12 @@
+Title:          wx.tcz
+Description:    wxGTK + OpenGL (TESTING)
+Version:        2.8.12
+Author:         wxWidgets Team
+Original-site:  http://www.wxwidgets.org
+Copying-policy: wxWindows / LGPL v2
+Size:		3.3M
+Extension_by:   Pavel Kalian
+Comments:       Specalized build with OpenGL to support OpenCPN 2.6+
+Change-log:     2011/12/26
+Current:        2011/12/26
+
